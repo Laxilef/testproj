@@ -17,6 +17,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: run PlatformIO Dependabot
-        uses: Laxilef/platformio_dependabot@semver
+        uses: Laxilef/platformio_dependabot@semver2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
